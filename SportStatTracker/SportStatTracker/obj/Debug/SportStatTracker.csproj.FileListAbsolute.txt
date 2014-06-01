@@ -19,3 +19,6 @@ C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracke
 C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\obj\Debug\SportStatTracker.pdb
 C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\obj\Debug\XapCacheFile.xml
 C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\obj\Debug\Views\TeamSelectionPage.g.cs
+C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\obj\Debug\SportStatTracker.csprojResolveAssemblyReference.cache
+C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\obj\Debug\Views\TeamPage.g.cs
+C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\Bin\Debug\Microsoft.Phone.Controls.dll
