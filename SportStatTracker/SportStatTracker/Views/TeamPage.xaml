@@ -18,12 +18,17 @@
         <phone:Panorama Title="my application">
 
             <!--Panorama item one-->
-            <phone:PanoramaItem Header="item1">
+            <phone:PanoramaItem Header="games">
                 <Grid/>
             </phone:PanoramaItem>
 
             <!--Panorama item two-->
-            <phone:PanoramaItem Header="item2">
+            <phone:PanoramaItem Header="players">
+                <Grid/>
+            </phone:PanoramaItem>
+
+            <!--Panorama item three-->
+            <phone:PanoramaItem Header="info">
                 <Grid/>
             </phone:PanoramaItem>
         </phone:Panorama>
