@@ -27,11 +27,13 @@ namespace SportStatTracker.Views
 
         private void add_player(object sender, EventArgs e)
         {
+            NavigationService.Navigate(new Uri("/Views/AddPlayer.xaml", UriKind.Relative));
 
         }
 
         private void add_game(object sender, EventArgs e)
         {
+            NavigationService.Navigate(new Uri("/Views/AddGame.xaml", UriKind.Relative));
 
         }
 
