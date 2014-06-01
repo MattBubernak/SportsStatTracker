@@ -15,6 +15,8 @@ namespace SportStatTracker.Views
         public TeamPage()
         {
             InitializeComponent();
+            //update the panorama appbar the first time the page loads
+            UpdatePanoramaAppBar(0);
         }
 
         private void PanoramaSelectionChanged(object sender, SelectionChangedEventArgs e)
