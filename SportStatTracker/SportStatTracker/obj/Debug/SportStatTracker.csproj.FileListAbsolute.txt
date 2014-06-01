@@ -18,3 +18,4 @@ C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracke
 C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\obj\Debug\SportStatTracker.dll
 C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\obj\Debug\SportStatTracker.pdb
 C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\obj\Debug\XapCacheFile.xml
+C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\obj\Debug\Views\TeamSelectionPage.g.cs
