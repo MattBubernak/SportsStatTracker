@@ -15,21 +15,22 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <phone:Panorama x:Name="PanoramaControl" Title="Sports Stat Tracker"  SelectionChanged="PanoramaSelectionChanged">
 
-        <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="Sports Stat Tracker" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="teams" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
+            <!--Panorama item one-->
+            <phone:PanoramaItem Header="teams">
+                <Grid/>
+            </phone:PanoramaItem>
 
-        <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <!--Panorama item two-->
+            <phone:PanoramaItem Header="about">
+                <Grid>
+                <TextBlock Text="Authors: Matt Bubernak , Bradley Bartholomew"/>
+                </Grid>
+            </phone:PanoramaItem>
 
-        </Grid>
+
+        </phone:Panorama>
     </Grid>
 
 
