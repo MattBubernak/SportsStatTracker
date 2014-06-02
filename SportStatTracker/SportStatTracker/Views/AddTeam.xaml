@@ -30,6 +30,8 @@
         <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <TextBlock Text="Name"></TextBlock>
             <TextBox x:Name="NameBox"></TextBox>
+            <TextBlock Text="Sport"></TextBlock>
+
         </StackPanel>
     </Grid>
 
