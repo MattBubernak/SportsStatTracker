@@ -16,5 +16,10 @@ namespace SportStatTracker.Views
         {
             InitializeComponent();
         }
+
+        private void Save_Game(object sender, EventArgs e)
+        {
+
+        }
     }
 }
