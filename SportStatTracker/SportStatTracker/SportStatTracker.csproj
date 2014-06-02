@@ -108,6 +108,7 @@
     </Compile>
     <Compile Include="ViewModels\AddGameViewModel.cs" />
     <Compile Include="ViewModels\AddPlayerViewModel.cs" />
+    <Compile Include="ViewModels\AddTeamViewModel.cs" />
     <Compile Include="ViewModels\ItemViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\TeamPageViewModel.cs" />
@@ -117,6 +118,9 @@
     </Compile>
     <Compile Include="Views\AddPlayer.xaml.cs">
       <DependentUpon>AddPlayer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddTeam.xaml.cs">
+      <DependentUpon>AddTeam.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TeamPage.xaml.cs">
       <DependentUpon>TeamPage.xaml</DependentUpon>
@@ -147,6 +151,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\AddPlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddTeam.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -75,3 +75,4 @@ C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracke
 C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Matt\Documents\GitHub\SportStatTracker\SportStatTracker\SportStatTracker\obj\Debug\Views\AddTeam.g.cs

@@ -10,16 +10,15 @@ using Microsoft.Phone.Shell;
 
 namespace SportStatTracker.Views
 {
-    public partial class TeamSelectionPage : PhoneApplicationPage
+    public partial class AddTeam : PhoneApplicationPage
     {
-        public TeamSelectionPage()
+        public AddTeam()
         {
             InitializeComponent();
         }
 
-        private void Add_Team(object sender, EventArgs e)
+        private void Save_Team(object sender, EventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Views/AddTeam.xaml", UriKind.Relative));
 
         }
     }

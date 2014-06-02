@@ -12,7 +12,7 @@ namespace SportStatTracker.Views
 {
     public partial class AddPlayer : PhoneApplicationPage
     {
-        const string INVALID_NUMBER_MESSAGE = "Invalid Number";
+        const string INVALID_NUMBER_MESSAGE = "Invalid Number(leave blank if unknown).";
         const string ERROR_MESSAGE_TITLE = "Error";  
 
         public AddPlayer()
@@ -26,7 +26,7 @@ namespace SportStatTracker.Views
 
             //confirm that player number is an integer, otherwise throw error
             int playerNumber;
-            if (Int32.TryParse(NumberBox.Text.ToString(), out playerNumber) == false)
+            if (Int32.TryParse(NumberBox.Text.ToString(), out playerNumber) == false && NumberBox.Text.ToString() != "")
             {
                 Show_Error_Message(INVALID_NUMBER_MESSAGE);
             }
