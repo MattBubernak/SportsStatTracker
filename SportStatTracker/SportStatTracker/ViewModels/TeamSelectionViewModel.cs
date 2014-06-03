@@ -18,6 +18,8 @@ namespace SportStatTracker.ViewModels
 
         private TeamSelectionViewModel()
         {
+            //get the database
+            db = App.DB;
             //should populate the teams from the DB 
             populate_teams(); 
         }

@@ -8,12 +8,16 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using SportStatTracker.Resources;
 using SportStatTracker.ViewModels;
+using SportStatTracker.Models;
+
+using System.Linq;
 
 namespace SportStatTracker
 {
     public partial class App : Application
     {
         private static MainViewModel viewModel = null;
+        public static DataBaseContext DB; 
 
         /// <summary>
         /// A static ViewModel used by the views to bind against.
@@ -73,6 +77,21 @@ namespace SportStatTracker
                 // and consume battery power when the user is not using the phone.
                 PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
             }
+
+            // Specify the local database connection string.
+            string DBConnectionString = "Data Source=isostore:/Stats.sdf";
+            using (DataBaseContext db = new DataBaseContext(DBConnectionString))
+            {
+                if (db.DatabaseExists() == false)
+                {
+                    // Create the local database.
+                    db.CreateDatabase();
+
+                }
+            }
+            DB = new DataBaseContext(DBConnectionString);
+
+
         }
 
         // Code to execute when the application is launching (eg, from Start)
