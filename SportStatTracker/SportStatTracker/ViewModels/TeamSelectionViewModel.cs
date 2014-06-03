@@ -40,7 +40,7 @@ namespace SportStatTracker.ViewModels
             {
                 Teams.Add(new TeamViewModel(team));
             }
-             * /
+             */
         }
 
         
