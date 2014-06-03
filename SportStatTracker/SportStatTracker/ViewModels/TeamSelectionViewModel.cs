@@ -7,13 +7,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using SportStatTracker.Models;
+using SportStatTracker.ViewModels;
 
 namespace SportStatTracker.ViewModels
 {
     class TeamSelectionViewModel
     {
         private static TeamSelectionViewModel _instance = null;
-        public ObservableCollection<Models.DataBaseContext.Team> Teams { get; set; }
+        public ObservableCollection<TeamViewModel> Teams { get; set; }
 
         private TeamSelectionViewModel()
         {
