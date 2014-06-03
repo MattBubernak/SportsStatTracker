@@ -62,6 +62,23 @@ namespace SportStatTracker.Models
             }
 
 
+            private string _teamSport;
+            [Column]
+            public string teamSport
+            {
+                get { return _teamSport; }
+                set
+                {
+                    if (_teamSport != value)
+                    {
+                        NotifyPropertyChanging("teamSport");
+                        _teamSport = value;
+                        NotifyPropertyChanged("teamSport");
+                    }
+                }
+            }
+
+
             #region INotifyPropertyChanged Members
 
             public event PropertyChangedEventHandler PropertyChanged;
