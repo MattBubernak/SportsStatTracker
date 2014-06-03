@@ -22,7 +22,7 @@ namespace SportStatTracker.ViewModels
             populate_teams(); 
         }
 
-        public TeamSelectionViewModel getInstance()
+        public static TeamSelectionViewModel getInstance()
         {
             if (_instance == null)
             {
