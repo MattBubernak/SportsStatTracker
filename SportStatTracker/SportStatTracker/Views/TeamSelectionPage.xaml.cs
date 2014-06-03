@@ -7,6 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using SportStatTracker.ViewModels;
 
 namespace SportStatTracker.Views
 {
@@ -16,6 +17,7 @@ namespace SportStatTracker.Views
         {
             InitializeComponent();
             UpdatePanoramaAppBar(0);
+            DataContext = TeamSelectionViewModel.getInstance(); 
         }
 
         private void Add_Team(object sender, EventArgs e)

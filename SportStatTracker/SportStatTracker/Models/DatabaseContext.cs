@@ -15,7 +15,7 @@ namespace SportStatTracker.Models
         public DataBaseContext(string connectionString)
             : base(connectionString)
         { }
-
+        
         // Specify a table for the to-do items.
         public Table<Team> Teams;
 
