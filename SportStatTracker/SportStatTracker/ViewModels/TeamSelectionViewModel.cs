@@ -34,7 +34,15 @@ namespace SportStatTracker.ViewModels
         //populates Teams with the teams from the DB 
         public void populate_teams()
         {
-
+            /*
+            ObservableCollection<DataBaseContext.Team> teamCollection = new ObservableCollection<DataBaseContext.Team>(from Team instance in db.Teams select instance);
+            foreach (DataBaseContext.Team team in teamCollection)
+            {
+                Teams.Add(new TeamViewModel(team));
+            }
+             * /
         }
+
+        
     }
 }

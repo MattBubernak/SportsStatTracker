@@ -21,6 +21,11 @@ namespace SportStatTracker.ViewModels
             set { _team = value; }
         }
 
+        public TeamViewModel(Models.DataBaseContext.Team team)
+        {
+            this._team = team;
+        }
+
          
     }
 }
