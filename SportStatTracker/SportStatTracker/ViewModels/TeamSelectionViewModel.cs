@@ -11,7 +11,7 @@ using SportStatTracker.ViewModels;
 
 namespace SportStatTracker.ViewModels
 {
-    class TeamSelectionViewModel
+    class TeamSelectionViewModel : BaseViewModel
     {
         private static TeamSelectionViewModel _instance = null;
         public ObservableCollection<TeamViewModel> Teams { get; set; }

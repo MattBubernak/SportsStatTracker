@@ -9,7 +9,7 @@ using SportStatTracker.ViewModels;
 
 namespace SportStatTracker.ViewModels
 {
-    public class TeamViewModel
+    public class TeamViewModel : BaseViewModel
     {
         //why can't I just use Team??
         private Models.DataBaseContext.Team _team;
