@@ -31,7 +31,7 @@ namespace SportStatTracker.ViewModels
         }
 
         //populates Teams with the teams from the DB 
-        public populate_teams()
+        public void populate_teams()
         {
 
         }
